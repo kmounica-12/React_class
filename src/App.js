@@ -3,8 +3,29 @@ import Button from"./components/button/button.js"
 import ListComponent from "./components/list/list.js";
 import Image from "./components/image/image.js";
 import Heading1,{Heading2 as SecondaryHeading, Heading3,Heading4,Heading5} from "./components/headings/headings.js";
+import HeadingComponent from "./components/classComponent/headingcl.js";
+import NavBar from "./components/navbar/navBar.js";
+import AccordionComponent from "./components/accordion/accordion.js";
 
-// w
+// w first day
+// function Hello(){
+//     return(
+//       <div>
+//         <h1>Hello World!</h1>
+//         <Button/>
+//         <ListComponent/>
+//         <h1>Hello World welcome!</h1>
+//         <Button/>
+//         <h1>I am Login</h1>
+//         <Button/>
+//         <h1>I am signup</h1>
+//         <Button/>
+//         <Image/>
+//       </div>
+//     )
+//   }
+ 
+  
 
 // date 22
 
@@ -100,19 +121,48 @@ import Heading1,{Heading2 as SecondaryHeading, Heading3,Heading4,Heading5} from 
 // }
 
 
+// function Hello(){
+//     const isSubscribed=false
+//     return(
+//       <>
+//          <Heading1/>
+//          <SecondaryHeading/>
+//          <Heading3/>
+//          <Heading4> </Heading4>
+//          <Heading5> </Heading5>
+//       </>
+//     )
+//   }
+
+// date 28-05024
+  
+
+
 function Hello(){
-    const isSubscribed=false
-    return(
-      <>
-         <Heading1/>
-         <SecondaryHeading/>
-         <Heading3/>
-         <Heading4> </Heading4>
-         <Heading5> </Heading5>
-      </>
-    )
-  }
+return(
+  <>
+  <NavBar/>
+  <AccordionComponent/>
+  {/* <HeadingComponent/>
+ <Heading1/>  */}
+  
+  </>
+)
+}
+
+// function Hello(){
+// return(
+//   <>
+//   <NavBar/>
+// )
+
+
+
+// }
+
 
 
 
 export default Hello;
+
+
